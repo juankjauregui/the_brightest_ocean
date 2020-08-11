@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EventFolder" id="{bf5b092e-671b-4f3e-9d68-b0593c5df9e2}">
+		<property name="name">
+			<value>Ocean Currents</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f99816d6-d108-4cf5-8f2b-92474917275e}</destination>
+		</relationship>
+	</object>
+</objects>

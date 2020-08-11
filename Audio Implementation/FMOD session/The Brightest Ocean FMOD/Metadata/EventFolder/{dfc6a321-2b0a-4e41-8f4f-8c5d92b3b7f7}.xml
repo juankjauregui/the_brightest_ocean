@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EventFolder" id="{dfc6a321-2b0a-4e41-8f4f-8c5d92b3b7f7}">
+		<property name="name">
+			<value>Giant Eel</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ce603cda-71cb-413d-9960-3ccaad759f4c}</destination>
+		</relationship>
+	</object>
+</objects>
