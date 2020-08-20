@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{7eb092d0-07d9-4fd8-a5c1-faa7c5a154c5}">
 		<property name="name">
-			<value>sfx_boss_jellyfish_touch</value>
+			<value>sfx_enemies_jellyfish_touch</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
 		</property>
 		<relationship name="folder">
-			<destination>{dac51379-a8db-456a-9f02-bd74e7cc568f}</destination>
+			<destination>{fc10b9f1-9f70-4a1e-ad24-0b4403c11c42}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{728d5f50-89d6-48a4-857b-c1b07b1995ac}</destination>

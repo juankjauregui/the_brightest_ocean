@@ -5,7 +5,7 @@
 			<value>sfx_enemies_eel_garden_charge</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{52697180-8627-4c96-abe0-77f4f6c63063}</destination>
@@ -30,6 +30,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{8343faf0-e700-42d4-a4e3-a78320008b36}</destination>
+		</relationship>
+		<relationship name="parameters">
+			<destination>{fffd4fb3-832a-4e66-83c4-2b9f45703c27}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{c9c8d792-8f45-4083-af74-70e9f7fdce7e}</destination>
@@ -59,6 +62,9 @@
 	<object class="EventAutomatableProperties" id="{987c072f-90a8-44f2-9810-9f1941e97d0a}" />
 	<object class="MarkerTrack" id="{5bc832b4-9511-4c60-937b-9ad48057ad34}" />
 	<object class="GroupTrack" id="{3807339a-b8e3-4daa-aaa3-a249052e3aa4}">
+		<relationship name="automationTracks">
+			<destination>{42a6f492-66c8-4e6b-aa41-80fd420b5102}</destination>
+		</relationship>
 		<relationship name="modules">
 			<destination>{016ea182-e2f4-435e-9cd3-afabd09fe329}</destination>
 		</relationship>
@@ -72,6 +78,11 @@
 		</relationship>
 		<relationship name="markers">
 			<destination>{7ecee746-1fc4-4f4b-a5ab-aff1b034418a}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{fffd4fb3-832a-4e66-83c4-2b9f45703c27}">
+		<relationship name="preset">
+			<destination>{8f195bd1-0846-4a79-9f40-790d8880cd5b}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{68018ada-e9c5-4820-85d7-7fcb23f2d520}">
@@ -91,6 +102,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d953a755-dc32-4825-bdb1-34d5290ab954}" />
+	<object class="AutomationTrack" id="{42a6f492-66c8-4e6b-aa41-80fd420b5102}">
+		<relationship name="automator">
+			<destination>{3d366079-42ed-41e3-93fd-697e54502448}</destination>
+		</relationship>
+	</object>
 	<object class="SingleSound" id="{016ea182-e2f4-435e-9cd3-afabd09fe329}">
 		<property name="length">
 			<value>1.9071875</value>
@@ -101,7 +117,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{eea3f66c-11ea-4a61-a9b5-a9d8055caf6f}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Eel Garden Charge</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{5778ca18-4c50-41ae-a454-8dc89bbe1e1a}</destination>
@@ -126,6 +142,9 @@
 		<relationship name="markerTrack">
 			<destination>{5bc832b4-9511-4c60-937b-9ad48057ad34}</destination>
 		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{1ab79e10-2c3d-46f2-900b-d0bfd323f9e7}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{c47d3497-31cc-4df7-8bfb-5a1c85831f2b}">
 		<relationship name="effects">
@@ -137,9 +156,34 @@
 	<object class="MixerBusEffectChain" id="{5778ca18-4c50-41ae-a454-8dc89bbe1e1a}">
 		<relationship name="effects">
 			<destination>{b3c87079-468a-4653-a688-41821560071a}</destination>
+			<destination>{c31df08f-8b9e-4649-bfdd-429be1e8f93a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cc1e48e9-623a-481c-b3a5-f30b9a0972f8}" />
+	<object class="ParameterCondition" id="{1ab79e10-2c3d-46f2-900b-d0bfd323f9e7}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{8f195bd1-0846-4a79-9f40-790d8880cd5b}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{c7d516c5-7cf7-4ac1-a177-c3a91bcb6e39}" />
 	<object class="MixerBusFader" id="{b3c87079-468a-4653-a688-41821560071a}" />
+	<object class="SpatialiserEffect" id="{c31df08f-8b9e-4649-bfdd-429be1e8f93a}">
+		<property name="maximumDistance">
+			<value>15</value>
+		</property>
+		<relationship name="automators">
+			<destination>{3d366079-42ed-41e3-93fd-697e54502448}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{3d366079-42ed-41e3-93fd-697e54502448}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>panBlend</value>
+		</property>
+	</object>
 </objects>

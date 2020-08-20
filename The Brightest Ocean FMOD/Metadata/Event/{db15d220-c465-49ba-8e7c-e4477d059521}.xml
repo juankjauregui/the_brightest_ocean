@@ -5,7 +5,7 @@
 			<value>sfx_enemies_eel_garden_electricity</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{52697180-8627-4c96-abe0-77f4f6c63063}</destination>
@@ -59,6 +59,9 @@
 	<object class="EventAutomatableProperties" id="{23df42c5-a2a8-49ce-b2d8-5dd1a2010f99}" />
 	<object class="MarkerTrack" id="{1cbacfc6-0fc6-4ad5-aa11-8c30db7b864e}" />
 	<object class="GroupTrack" id="{f9dd8eed-906c-4fec-ad26-a7dc971d1486}">
+		<relationship name="automationTracks">
+			<destination>{8be88427-f7a8-477c-be93-c9aa7a420316}</destination>
+		</relationship>
 		<relationship name="modules">
 			<destination>{a957ff65-2b8d-42f3-8e30-2d78aed0b3a3}</destination>
 		</relationship>
@@ -88,6 +91,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ef211834-4187-41dd-b0fd-1a591ab789da}" />
+	<object class="AutomationTrack" id="{8be88427-f7a8-477c-be93-c9aa7a420316}">
+		<relationship name="automator">
+			<destination>{c5a18977-5616-4dc5-aa5b-60fb80935bb9}</destination>
+		</relationship>
+	</object>
 	<object class="SingleSound" id="{a957ff65-2b8d-42f3-8e30-2d78aed0b3a3}">
 		<property name="length">
 			<value>0.63018750000000001</value>
@@ -98,7 +106,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{bab65313-b47c-4573-98bf-ed5ee99fc400}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Eel Garden Electricity</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{090db201-b7be-4e2a-a08d-4ca2564b472e}</destination>
@@ -120,9 +128,23 @@
 	<object class="MixerBusEffectChain" id="{090db201-b7be-4e2a-a08d-4ca2564b472e}">
 		<relationship name="effects">
 			<destination>{c6dcee8d-1bde-425a-8b98-d97f2104c80d}</destination>
+			<destination>{6935e3df-97c5-44e7-a3d3-5a107ad79329}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{da841f53-6b18-43f5-8937-618089129af2}" />
 	<object class="MixerBusFader" id="{0f0a7ba4-0d55-4bbb-951e-40fd79ae9d40}" />
 	<object class="MixerBusFader" id="{c6dcee8d-1bde-425a-8b98-d97f2104c80d}" />
+	<object class="SpatialiserEffect" id="{6935e3df-97c5-44e7-a3d3-5a107ad79329}">
+		<property name="maximumDistance">
+			<value>15</value>
+		</property>
+		<relationship name="automators">
+			<destination>{c5a18977-5616-4dc5-aa5b-60fb80935bb9}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{c5a18977-5616-4dc5-aa5b-60fb80935bb9}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>panBlend</value>
+		</property>
+	</object>
 </objects>
