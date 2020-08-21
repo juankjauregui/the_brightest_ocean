@@ -33,6 +33,7 @@
 		</relationship>
 		<relationship name="banks">
 			<destination>{c9c8d792-8f45-4083-af74-70e9f7fdce7e}</destination>
+			<destination>{e8b2f3b1-56d6-436c-845f-337bde02ada1}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{7f123390-22f5-42ef-bea3-c79f6ce9b74d}">
@@ -98,7 +99,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{2f5bb6bd-54f8-48aa-b298-33a357d0346c}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Wind Flowers Opens</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{3bd23eff-0d27-4575-a650-2e33af5924ab}</destination>

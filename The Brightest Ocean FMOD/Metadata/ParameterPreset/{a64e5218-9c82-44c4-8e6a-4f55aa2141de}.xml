@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="ParameterPreset" id="{27acc72c-2f25-4b45-916f-ddd9dbe117dc}">
+	<object class="ParameterPreset" id="{a64e5218-9c82-44c4-8e6a-4f55aa2141de}">
 		<property name="name">
 			<value>gameObjectDistance</value>
 		</property>
@@ -8,15 +8,21 @@
 			<destination>{7af58716-0c32-4136-9e0d-1d3bb48cadd5}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{a14f4b05-0e49-4953-8b7c-14e016b66bf7}</destination>
+			<destination>{ec460c7c-91bb-44c6-8f77-c5bed69f3e8c}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{a14f4b05-0e49-4953-8b7c-14e016b66bf7}">
+	<object class="GameParameter" id="{ec460c7c-91bb-44c6-8f77-c5bed69f3e8c}">
+		<property name="parameterType">
+			<value>3</value>
+		</property>
 		<property name="maximum">
-			<value>15</value>
+			<value>30</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
 		</property>
 	</object>
 </objects>

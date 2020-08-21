@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{cd004ad7-b828-4fa6-9624-7da6ace670e5}">
 		<property name="assetPath">
-			<value>SFX/Environment/Ocean Currents/sfx_environment_ocean_current_1.ogg</value>
+			<value>SFX/Environment/Ocean Currents/sfx_environment_ocean_current.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{6d5e8592-6dad-4bae-a466-945b18dec23d}">
 		<property name="name">
-			<value>sfx_boss_shark_swim</value>
+			<value>sfx_boss_shark_swim_loop</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
@@ -33,6 +33,7 @@
 		</relationship>
 		<relationship name="banks">
 			<destination>{c9c8d792-8f45-4083-af74-70e9f7fdce7e}</destination>
+			<destination>{e8b2f3b1-56d6-436c-845f-337bde02ada1}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{da9f2127-1154-41ed-b637-5b89b7883c39}">

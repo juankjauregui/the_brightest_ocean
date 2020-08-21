@@ -33,6 +33,7 @@
 		</relationship>
 		<relationship name="banks">
 			<destination>{c9c8d792-8f45-4083-af74-70e9f7fdce7e}</destination>
+			<destination>{e8b2f3b1-56d6-436c-845f-337bde02ada1}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{728d5f50-89d6-48a4-857b-c1b07b1995ac}">
@@ -98,7 +99,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{9c0b48a0-d15a-4b87-a3a5-7682ccf683f4}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Jellyfish touch</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{dc2743f7-3db6-45b0-be98-6fbe130f351e}</destination>
