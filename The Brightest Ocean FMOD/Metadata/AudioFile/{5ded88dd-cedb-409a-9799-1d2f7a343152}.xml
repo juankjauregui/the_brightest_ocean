@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{5ded88dd-cedb-409a-9799-1d2f7a343152}">
+		<property name="assetPath">
+			<value>Music/Level 1/Layers/m_level_1_loop_3_raw.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>9.5454791666666665</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4812336e-8991-446b-94c3-ed2f8a3ea21e}</destination>
+		</relationship>
+	</object>
+</objects>

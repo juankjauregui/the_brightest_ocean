@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{3209af97-8c4b-4536-baa7-c4fe0192fe3f}">
+		<property name="assetPath">
+			<value>Music/Level 2/Bajo patterns/m_level_2_bajo_intro.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4812336e-8991-446b-94c3-ed2f8a3ea21e}</destination>
+		</relationship>
+	</object>
+</objects>

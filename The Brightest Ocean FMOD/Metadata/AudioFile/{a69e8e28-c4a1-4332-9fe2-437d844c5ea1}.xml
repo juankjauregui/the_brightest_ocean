@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{a69e8e28-c4a1-4332-9fe2-437d844c5ea1}">
+		<property name="assetPath">
+			<value>Music/Level 3/Guasá patterns/m_level_3_freestyle_guasa_pattern_3.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>6.666666666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4812336e-8991-446b-94c3-ed2f8a3ea21e}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{6b0e9334-c8fc-4c1c-9dda-535db643d876}">
+		<property name="assetPath">
+			<value>Music/Level 3/Lead patterns/m_level_3_freestyle_lead_pattern_1.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>6.666666666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4812336e-8991-446b-94c3-ed2f8a3ea21e}</destination>
+		</relationship>
+	</object>
+</objects>

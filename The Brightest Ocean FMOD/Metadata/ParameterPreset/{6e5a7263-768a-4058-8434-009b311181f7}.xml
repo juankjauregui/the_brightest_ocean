@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{6e5a7263-768a-4058-8434-009b311181f7}">
+		<property name="name">
+			<value>changeMusicLoop</value>
+		</property>
+		<relationship name="folder">
+			<destination>{7af58716-0c32-4136-9e0d-1d3bb48cadd5}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ab6f95d7-6b85-4fda-a639-cbc7eb7792d8}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ab6f95d7-6b85-4fda-a639-cbc7eb7792d8}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>
