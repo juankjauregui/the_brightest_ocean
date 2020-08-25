@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{4f94da6e-7350-4e75-9e35-001921555d7d}">
 		<property name="assetPath">
-			<value>Music/Level 1/Boss Tiburón/m_level_1_boss_tambora_outro.ogg</value>
+			<value>Music/Level 1/Boss Shark/m_level_1_boss_tambora_outro.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

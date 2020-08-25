@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="ParameterPreset" id="{6e5a7263-768a-4058-8434-009b311181f7}">
+	<object class="ParameterPreset" id="{d134633f-e028-4615-8c63-237c82610004}">
 		<property name="name">
-			<value>changeMusicMix</value>
+			<value>switchMusicLoop</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7af58716-0c32-4136-9e0d-1d3bb48cadd5}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{ab6f95d7-6b85-4fda-a639-cbc7eb7792d8}</destination>
+			<destination>{ff8913cb-05a1-4ca6-84eb-d854f19c9ff1}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{ab6f95d7-6b85-4fda-a639-cbc7eb7792d8}">
+	<object class="GameParameter" id="{ff8913cb-05a1-4ca6-84eb-d854f19c9ff1}">
 		<property name="parameterType">
 			<value>1</value>
 		</property>
+		<property name="minimum">
+			<value>1</value>
+		</property>
 		<property name="maximum">
-			<value>7</value>
+			<value>5</value>
 		</property>
 		<property name="initialValue">
-			<value>0</value>
+			<value>1</value>
 		</property>
 	</object>
 </objects>

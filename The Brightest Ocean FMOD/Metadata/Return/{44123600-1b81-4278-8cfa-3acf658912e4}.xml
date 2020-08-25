@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerReturn" id="{44123600-1b81-4278-8cfa-3acf658912e4}">
+		<property name="name">
+			<value>Cununo Hembra</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{83f4d9ff-8bc0-420f-84a6-40f92315a0cc}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{8394aad9-3c02-4006-8b07-060eb8f67ba0}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{4caf846f-6aae-4907-8cd3-0c80d6b74bf9}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{83f4d9ff-8bc0-420f-84a6-40f92315a0cc}">
+		<relationship name="effects">
+			<destination>{98d137fa-754c-4dd2-b41f-d5fb82bee475}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{8394aad9-3c02-4006-8b07-060eb8f67ba0}" />
+	<object class="MixerBusFader" id="{98d137fa-754c-4dd2-b41f-d5fb82bee475}" />
+</objects>

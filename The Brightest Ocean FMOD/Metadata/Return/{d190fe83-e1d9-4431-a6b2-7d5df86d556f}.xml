@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerReturn" id="{d190fe83-e1d9-4431-a6b2-7d5df86d556f}">
+		<property name="name">
+			<value>Cununo Macho</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{8a6c432d-19f9-4e53-9e7d-0dbb694c47d4}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{d6c925e3-8f23-4417-b0d8-12a86fa71575}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{4caf846f-6aae-4907-8cd3-0c80d6b74bf9}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{8a6c432d-19f9-4e53-9e7d-0dbb694c47d4}">
+		<relationship name="effects">
+			<destination>{2458cf53-643d-4981-bc17-4a0f350fbcf1}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{d6c925e3-8f23-4417-b0d8-12a86fa71575}" />
+	<object class="MixerBusFader" id="{2458cf53-643d-4981-bc17-4a0f350fbcf1}" />
+</objects>

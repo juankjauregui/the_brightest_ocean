@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerReturn" id="{732b58ac-c154-4211-a2dc-bcb1f8fb7686}">
+		<property name="name">
+			<value>Tambora</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{c0869797-fac5-4bc3-adee-060b4f74ce90}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{17ac2a9c-dc74-48bd-aeb0-301f425895d0}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{4caf846f-6aae-4907-8cd3-0c80d6b74bf9}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{c0869797-fac5-4bc3-adee-060b4f74ce90}">
+		<relationship name="effects">
+			<destination>{459423b9-a8fe-4085-9743-b2a7452a2173}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{17ac2a9c-dc74-48bd-aeb0-301f425895d0}" />
+	<object class="MixerBusFader" id="{459423b9-a8fe-4085-9743-b2a7452a2173}" />
+</objects>
