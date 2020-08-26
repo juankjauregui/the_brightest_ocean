@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="Snapshot" id="{949cfb01-b5af-4be1-b572-4b240e78765c}">
+		<property name="name">
+			<value>Percussion Tutti</value>
+		</property>
+		<property name="behavior">
+			<value>1</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{4934deab-f802-451c-9443-1e512bdb3dca}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{ef9daca9-2100-4ade-9fc7-d277625457c1}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{e373c716-9527-4d34-9947-230e346e3ad2}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{9772d465-77c6-421a-b838-f05cd3d3ae2b}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{6fe7c985-4633-4d4f-881b-bb8b1e6c4e93}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{ef9daca9-2100-4ade-9fc7-d277625457c1}" />
+	<object class="MarkerTrack" id="{e373c716-9527-4d34-9947-230e346e3ad2}" />
+	<object class="Timeline" id="{9772d465-77c6-421a-b838-f05cd3d3ae2b}" />
+	<object class="SnapshotMasterTrack" id="{6fe7c985-4633-4d4f-881b-bb8b1e6c4e93}" />
+</objects>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="Snapshot" id="{6aa1a88a-366c-4fe6-9ca7-cbf178428101}">
+		<property name="name">
+			<value>Low Instruments</value>
+		</property>
+		<property name="behavior">
+			<value>1</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{4934deab-f802-451c-9443-1e512bdb3dca}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{2233fe0b-903b-4049-940a-b8c8a9dad4e3}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{072080e2-a7af-4be0-a6b0-2dadd11bef61}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{876db556-022e-40da-8f29-30e4fedcf4b9}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{db71bd31-608b-4fa5-8070-d3927850bb7a}</destination>
+		</relationship>
+		<relationship name="snapshotProperties">
+			<destination>{33831ea1-d21b-4767-8d0b-d3c9e720803b}</destination>
+			<destination>{bd6d84fe-d5d6-4047-8909-2903d7772559}</destination>
+		</relationship>
+		<relationship name="snapshotTracks">
+			<destination>{cdf37ac4-5eae-4e54-9f11-a66633f0add3}</destination>
+			<destination>{a561b306-952f-4201-bab3-e36b2d3fd981}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{2233fe0b-903b-4049-940a-b8c8a9dad4e3}" />
+	<object class="MarkerTrack" id="{072080e2-a7af-4be0-a6b0-2dadd11bef61}" />
+	<object class="Timeline" id="{876db556-022e-40da-8f29-30e4fedcf4b9}" />
+	<object class="SnapshotMasterTrack" id="{db71bd31-608b-4fa5-8070-d3927850bb7a}" />
+	<object class="SnapshotProperty" id="{33831ea1-d21b-4767-8d0b-d3c9e720803b}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{44123600-1b81-4278-8cfa-3acf658912e4}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{bd6d84fe-d5d6-4047-8909-2903d7772559}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{766b59d0-8d64-4b36-b061-7370e8abe1be}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{cdf37ac4-5eae-4e54-9f11-a66633f0add3}">
+		<relationship name="mixerStrip">
+			<destination>{44123600-1b81-4278-8cfa-3acf658912e4}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{a561b306-952f-4201-bab3-e36b2d3fd981}">
+		<relationship name="mixerStrip">
+			<destination>{766b59d0-8d64-4b36-b061-7370e8abe1be}</destination>
+		</relationship>
+	</object>
+</objects>
