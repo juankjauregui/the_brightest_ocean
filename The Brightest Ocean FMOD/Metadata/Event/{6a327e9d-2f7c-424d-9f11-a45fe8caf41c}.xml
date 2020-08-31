@@ -288,6 +288,9 @@
 		<property name="start">
 			<value>2</value>
 		</property>
+		<property name="quantizationInterval">
+			<value>2</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{2b78be22-fdfa-4714-867d-1addb8e9181e}</destination>
 		</relationship>
@@ -298,6 +301,9 @@
 	<object class="SnapshotModule" id="{badc283b-df73-46c9-aa1b-2b1ca9a78238}">
 		<property name="start">
 			<value>3</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>2</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{8ded76ea-39d1-4acb-a60b-8b95ffadb92a}</destination>
@@ -365,6 +371,9 @@
 		<property name="start">
 			<value>1</value>
 		</property>
+		<property name="quantizationInterval">
+			<value>2</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{85ab2cea-a49f-41ef-b0fd-a6050f0dcf76}</destination>
 		</relationship>
@@ -373,6 +382,9 @@
 		</relationship>
 	</object>
 	<object class="SnapshotModule" id="{15ba2164-f8e2-4ec9-adb0-5a1f2a562e0a}">
+		<property name="quantizationInterval">
+			<value>2</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{036767bb-3cf7-4950-a61a-352b761d3b44}</destination>
 		</relationship>
@@ -966,7 +978,7 @@
 			<value>intensity</value>
 		</property>
 		<property name="attackTime">
-			<value>400</value>
+			<value>310.256409</value>
 		</property>
 		<property name="peakValue">
 			<value>100</value>
@@ -989,7 +1001,7 @@
 			<value>intensity</value>
 		</property>
 		<property name="attackTime">
-			<value>400</value>
+			<value>310.256409</value>
 		</property>
 		<property name="peakValue">
 			<value>100</value>
@@ -1006,7 +1018,7 @@
 			<value>intensity</value>
 		</property>
 		<property name="attackTime">
-			<value>400</value>
+			<value>310.256409</value>
 		</property>
 		<property name="peakValue">
 			<value>100</value>
@@ -1023,7 +1035,7 @@
 			<value>intensity</value>
 		</property>
 		<property name="attackTime">
-			<value>400</value>
+			<value>310.256409</value>
 		</property>
 		<property name="peakValue">
 			<value>100</value>
@@ -1040,7 +1052,7 @@
 			<value>intensity</value>
 		</property>
 		<property name="attackTime">
-			<value>400</value>
+			<value>310.256409</value>
 		</property>
 		<property name="peakValue">
 			<value>100</value>
@@ -1057,7 +1069,7 @@
 			<value>intensity</value>
 		</property>
 		<property name="attackTime">
-			<value>400</value>
+			<value>310.256409</value>
 		</property>
 		<property name="peakValue">
 			<value>100</value>
@@ -1074,7 +1086,7 @@
 			<value>intensity</value>
 		</property>
 		<property name="attackTime">
-			<value>400</value>
+			<value>310.256409</value>
 		</property>
 		<property name="peakValue">
 			<value>100</value>
@@ -1091,7 +1103,7 @@
 			<value>intensity</value>
 		</property>
 		<property name="attackTime">
-			<value>400</value>
+			<value>310.256409</value>
 		</property>
 		<property name="peakValue">
 			<value>100</value>
@@ -1108,7 +1120,7 @@
 			<value>intensity</value>
 		</property>
 		<property name="attackTime">
-			<value>400</value>
+			<value>310.256409</value>
 		</property>
 		<property name="peakValue">
 			<value>100</value>
