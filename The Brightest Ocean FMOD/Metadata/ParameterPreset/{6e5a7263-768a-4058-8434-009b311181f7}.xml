@@ -19,7 +19,7 @@
 			<value>10</value>
 		</property>
 		<property name="initialValue">
-			<value>5</value>
+			<value>0</value>
 		</property>
 	</object>
 </objects>
