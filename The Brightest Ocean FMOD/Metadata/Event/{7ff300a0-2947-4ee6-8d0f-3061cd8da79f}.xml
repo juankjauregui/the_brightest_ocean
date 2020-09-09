@@ -206,6 +206,7 @@
 		<relationship name="effects">
 			<destination>{ad20222e-b669-42ec-9295-6205ec65edd4}</destination>
 			<destination>{9035ae5c-1c5a-42d7-ab2a-faa7cc3937ec}</destination>
+			<destination>{8dbbd05c-8a0d-4807-ac5c-a052033c6925}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{41e104bb-4296-47e0-a142-aee22d406087}">
@@ -241,6 +242,14 @@
 			<destination>{71e8ca9c-846c-4042-987c-a0e045049e98}</destination>
 		</relationship>
 	</object>
+	<object class="DistortionEffect" id="{8dbbd05c-8a0d-4807-ac5c-a052033c6925}">
+		<property name="level">
+			<value>0.235000014</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{b1c0fca9-f98c-4cec-aa31-03f245441863}</destination>
+		</relationship>
+	</object>
 	<object class="RandomizerModulator" id="{722eca64-842f-40a3-aa9c-6b34d63ba7ee}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>stereoPan</value>
@@ -264,6 +273,14 @@
 		</property>
 		<property name="amount">
 			<value>6.5</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{b1c0fca9-f98c-4cec-aa31-03f245441863}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>level</value>
+		</property>
+		<property name="amount">
+			<value>20</value>
 		</property>
 	</object>
 </objects>
