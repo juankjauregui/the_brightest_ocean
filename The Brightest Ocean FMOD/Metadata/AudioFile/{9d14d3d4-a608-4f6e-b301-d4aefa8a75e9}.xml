@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{2d64de37-14a2-43c7-bed5-90143aad1599}">
+	<object class="AudioFile" id="{9d14d3d4-a608-4f6e-b301-d4aefa8a75e9}">
 		<property name="assetPath">
-			<value>SFX/Main Character/Mantis/sfx_main_character_mantis_shrimp_swim_loop.ogg</value>
+			<value>SFX/Main Character/Mantis/sfx_main_character_mantis_shrimp_swim_start.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>0.99139583333333337</value>
+			<value>0.99981249999999999</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{4812336e-8991-446b-94c3-ed2f8a3ea21e}</destination>
